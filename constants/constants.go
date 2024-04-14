@@ -46,7 +46,7 @@ var (
 	}
 
 	IgnoredDirs = []string{
-		"node_modules", ".git", ".vscode", ".idea", "__pycache__", "venv", "vendor",
+		"node_modules", ".git", ".vscode", ".idea", ".nextjs", "__pycache__", "venv", "vendor",
 		"build", "dist", "bin", "obj", "target", "debug", "release", "tmp", "temp",
 		"cache", "logs", "log",
 	}

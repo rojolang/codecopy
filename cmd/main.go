@@ -15,7 +15,8 @@ func main() {
 		return
 	}
 
-	if err := ccopy.Run(args); err != nil {
+	err := ccopy.Run(args)
+	if err != nil {
 		ui.DisplayError(err)
 		os.Exit(1)
 	}
